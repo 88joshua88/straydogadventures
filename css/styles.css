@@ -1,0 +1,284 @@
+
+/* Typography */
+
+.bigHeading{
+  font-family: Quintessential;
+  font-size: 2.1rem;
+  font-weight: bold;
+}
+
+.smallHeading{
+  font-family: poppins;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+.text{
+  font-family: Poppins;
+  font-size: 1.1rem;
+  line-height: 2;
+  padding-top: 10px;
+}
+
+
+/* Header */
+
+.header{
+  background-color: #fff;
+  padding: 0% 7%;
+  border-top: solid;
+  border-bottom: solid;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  font-family: Quintessential;
+  font-size: 1.3rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.navbar{
+  padding: 0;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+.nav-item{
+    padding: 0px 18px;
+    font-weight: bold;
+}
+
+.nav-link{
+  color: black;
+  padding: 0px 18px;
+  font-weight: bold;
+}
+
+.nav-link:hover{
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* homePart1 */
+
+.homePart1 {
+  padding: 10% 7% 20%;
+  background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-cloud-background_41066-1919.jpg?w=2000");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.intro-text{
+  padding-top: 10%;
+}
+
+.dog-image{
+  width: 100%;
+}
+
+/* homePart2 */
+
+.homePart2 {
+  padding: 10% 7%;
+  background-color: #fff;
+}
+
+.stray-dog-text{
+  padding-top: 7%;
+}
+
+.stray-dog-image{
+  width: 100%;
+}
+
+.homePart2 .bigHeading{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.homePart2 .text{
+  padding-bottom: 10px;
+}
+
+/* homePart3 */
+
+.homePart3 {
+  padding: 10% 7% 20%;
+  background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-cloud-background_41066-1919.jpg?w=2000");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.facebook-text{
+  padding-top: 10%;
+}
+
+.fb-page{
+  padding-top: 30%;
+  al
+}
+
+/* homePart4 */
+
+.homePart4 {
+  padding: 10% 7%;
+  background-color: #fff;
+}
+
+.video{
+  text-align: center;
+}
+
+.epic-trips-text{
+  padding-top: 9%;
+}
+
+.homePart4 .bigHeading{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.homePart4 .text{
+  padding-bottom: 10px;
+}
+
+.smallTitleSection {
+  padding: 10% 7%;
+  background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-cloud-background_41066-1919.jpg?w=2000");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.emptyContainer {
+  padding: 5% 7%;
+  background-color: #fff;
+  line-height: 2;
+}
+
+/* Trips Page */
+
+.trips-page-header{
+  background-color: #fff;
+  padding: 0% 7%;
+  border-top: solid;
+  border-bottom: solid;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  font-family: Quintessential;
+  font-size: 1.3rem;
+}
+
+.tripsOverview {
+  padding: 5% 7%;
+  background-color: #fff;
+  line-height: 2;
+  text-align:center;
+}
+
+.trips-page-text{
+  font-family: Poppins;
+  font-size: 1.1rem;
+  line-height: 2;
+  padding: 10px 20px 10px 10px;
+}
+
+.trips-page-image{
+  width: 300px;
+  height: 280px;
+  padding: 5px;
+}
+
+.carousel-button{
+  filter: invert(100%);
+}
+
+.dotted-rule {
+  border: dotted black 6px;
+  border-bottom: none;
+  width: 40%;
+  margin: 50px auto;
+}
+
+/* Trip pages */
+
+.tripContent {
+  padding: 5% 7%;
+  background-color: #fff;
+  line-height: 2;
+  text-align: left;
+}
+
+.trip-image{
+  width: 100%;
+}
+
+/* Contact page */
+
+.formContainer {
+  padding: 8% 7% 12% 7%;
+  background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-cloud-background_41066-1919.jpg?w=2000");
+  background-size: cover;
+  background-repeat: no-repeat;
+  line-height: 2;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.inner-form{
+  text-align: left;
+  line-height: 2;
+}
+
+.form-input{
+  width: 100%;
+}
+
+#message{
+  height: 225px;
+}
+
+#display{
+    font-family: Poppins;
+    font-size: 1.1rem;
+    line-height: 2;
+    padding-top: 10px;
+    color: red;
+}
+
+
+/* Responive touches */
+
+@media (max-width: 990px) {
+
+  .homePart2{
+    text-align: center;
+  }
+
+  .stray-dog-text{
+    padding: 0%;
+  }
+
+  .homePart3{
+    text-align: center;
+  }
+
+  .fb-page{
+    padding-top: 10px;
+  }
+
+  .homePart4{
+    text-align: center;
+  }
+
+  .epic-trips-text{
+    padding-top: 0%;
+  }
+}
