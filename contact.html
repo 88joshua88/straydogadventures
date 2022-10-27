@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Stray Dog Adventures</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quintessential&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/d6156a861e.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon.ico">
+
+</head>
+
+<body>
+
+  <!-- Header Section -->
+
+  <section class="header">
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.png" alt="logo" width="300" height="75">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="background.html">Background</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="trips.html">Trips</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <a class="nav-link" href="https://www.facebook.com/profile.php?id=100070157242076">
+            <img src="images/facebook-image.png" alt="fb" width="40" height="40">
+          </a>
+        </div>
+      </div>
+    </nav>
+
+  </section>
+
+
+
+
+  <section class="formContainer">
+    <div class="container-fluid">
+
+      <h3 class="bigHeading">Get in touch...</h3><br><br>
+
+      <form class="" action="php/contact.php" method="post" id="form">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12 inner-form">
+            <label for="name">Name:</label><br>
+            <input class="form-input" type="text" name="name" id="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input class="form-input" type="email" name="email" id="email"><br><br>
+            <label for="subject">Subject:</label><br>
+            <input class="form-input" type="text" name="subject" id="subject">
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 inner-form">
+            <label for="message">Message:</label><br>
+            <textarea class="form-input" name="message" id="message" rows="7" cols="8"></textarea><br>
+            <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span><br>
+          </div>
+        </div>
+        <input class="btn btn-dark btn-lg" type="submit" id="submit" value="Send Email"><br>
+        <p id="display"></p><br>
+      </form>
+
+
+    </div>
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/contact.js"></script>
+
+</body>
+
+</html>
